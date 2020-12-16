@@ -1,0 +1,56 @@
+body {
+ background-color: rgb(233, 226, 208);
+}
+
+
+.ban {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.song {
+    text-align: center;
+}
+
+
+.field1 {
+    text-align: center;
+    border-radius: 5%;
+    background-image: url("media/field.jfif");
+    padding: 10px;
+   
+}
+
+
+.field2 {
+    background-color: rgb(241, 222, 222);
+
+}
+
+
+button {
+    border-radius: 5%;
+    font-weight: bold;
+    background-image: url("media/field.jfif");
+    display: inline-flex;
+    align-items:inherit;
+    margin: 0 0.7rem;
+
+}
+
+.sousban {
+    display: flex; 
+    flex-direction: column;
+}
+
+
+.fieldtextfr {
+    display : none;
+}
